@@ -10,3 +10,6 @@ All notable changes to this project are documented in this file.
 - Included current date/time display using JavaScript
 - Added footer with copyright html entity
 
+## [2025-05-31]
+
+- Added static "Last updated by author" section
