@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1> Terry Royce</h1>
+      <h2>Aspiring Software Engineer</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h3>Summary</h3>
+        <p>
+          I am completing a bachelors in <strong>Computer Science</strong> at WGU, with eagerness to develop useful code and technologies.
+        </p>
+        <p>
+          My main passion is to solve problems and applying such solutions to produce creative and functional programs that serve the users well.
+        </p>
+        <p>
+          I studied Biomedical Engineering at Southern Illinois University for two years before discovering my passion for programming. After taking an introductory course, I switched to Computer Science to better align my studies with my goals.
+        </p>
+        <h3>Technical Skills</h3>
+        <p>Some languages and tools that I have experience with are the following:</p>
+        <ul>
+          <li><span>Javascript</span> -- DOM manipulation and basic events</li>
+          <li><span>C++</span>-- Basic control flow, functions, and console programs</li>
+          <li><span>HTML5</span>-- semantic markup and accessibility</li>
+          <li><span>CSS3</span>-- layouts with Flexbox/Grid, media queries</li>
+          <li><span>SQL</span>-- SELECT, JOIN, and filtering queries using MySQL/PostgreSQL</li>
+        </ul>
+      </section>
+      <section>
+        <article>
+          <h4>WGU Portfolio Project</h4>
+          <p>
+            Created a multi-page responsive website using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>.
+            Focused on semantic code and accessibility.
+          </p>
+        </article>
+        <article>
+          <h4>Education</h4>
+          <p>
+            Western Governers University - B.S. in Computer Science<br>
+            <em>Expected graduation:</em> DEC 2025
+          </p>
+        </article>
+      </section>
+      <section>
+        <h3>Technical Skills Table</h3>
+        <table border="1">
+          <caption>Brief Summary of Technical Experience</caption>
+          <tr>
+            <th>Tool/Language</th>
+            <th>Experience</th>
+            <th>Proficiency</th>
+            <th>Tools Used</th>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>3 months</td>
+            <td>Beginner</td>
+            <td>Browser Console, VS Code</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>1 semester</td>
+            <td>Beginner</td>
+            <td>CLI, Code::Blocks</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>1 course</td>
+            <td>Beginner</td>
+            <td>MySQL, SQLite</td>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>6 months</td>
+            <td>Intermediate</td>
+            <td>VS Code</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>6 months</td>
+            <td>Intermediate</td>
+            <td>VS Code, Flexbox/Grid</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <section>
+      <h3>Page Information</h3>
+      <p>Last updated by author:</p>
+      <div id="current-date">Please wait as date loads...</div>
+      <div id="current-time">Please wait as time loads...</div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Terry Royce</p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+    const dateDiv = document.getElementById("current-date");
+    const today = new Date().toLocaleDateString(); // Format: MM/DD/YYYY
+    dateDiv.textContent = "Welcome! Today's date is: " + today;
+    const time = new Date().toLocaleTimeString();
+    document.getElementById("current-time").textContent = "Time: " + time;
+
+    console.log("Resume loaded successfully on " + today);
+    });
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
